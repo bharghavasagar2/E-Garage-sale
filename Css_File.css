@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  font-family: 'Gill Sans', sans-serif;
+  background-color: rgb(162, 128, 240);
+}
+.parent-div {
+  padding: 6px;
+}
+#quantity-error {
+  color: red;
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 15em;
+  display: block;
+}
+.garage-sale-cause {
+  border-style: dotted;
+  border-color: lightgreen;
+  color: lightgreen;
+  font-size: 1.4em;
+  padding: 8px;
+}
+.labelClass,
+.inputClass {
+  margin-right: 4em;
+}
+.inputClass {
+  float: right;
+}
+
+#customerReceipt,
+.itemsListClass {
+  border: 1px solid rgb(128, 0, 19);
+  list-style: none;
+  padding: 20px;
+  width: 35em;
+  margin: 20px auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-style: solid;
+  width: 100%;
+  margin-bottom: 1em;
+  border-color: blue;
+}
+
+table td,
+table th {
+  border: 1px solid black;
+  border-color: blue;
+}
+
+#checkOutButton {
+  background: #3630a3;
+  color: white;
+  padding: 5px;
+  margin-top: 1em;
+}
